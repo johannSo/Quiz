@@ -81,8 +81,8 @@ export const questions: Question[] = [
     {
         id: 12,
         question: "In welchem Land wurde die erste erfolgreiche Entschlüsselung der Enigma durchgeführt?",
-        options: ["Polen", "USA", "England", "Frankreich"],
-        correctAnswers: [0]
+        options: ["Polen", "USA", "England", "Frankreich", "Deutschland"],
+        correctAnswers: [0, 4]
     },
     {
         id: 13,
@@ -106,7 +106,7 @@ export const questions: Question[] = [
         id: 16,
         question: "Welche Komponente der Enigma-Maschine war entscheidend für die tägliche Neukonfiguration?",
         options: ["Steckerbrett", "Rotoren", "Reflektor"],
-        correctAnswers: [1]
+        correctAnswers: [0, 1]
     },
     {
         id: 17,
